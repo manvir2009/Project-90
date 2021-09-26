@@ -1,6 +1,6 @@
 body
 {
-	background-image: url("https://images.unsplash.com/photo-1515705576963-95cad62945b6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80");
+	background-image: url("https://cdn.hipwallpaper.com/i/75/53/0cFvKO.jpg");
 }
 
 	.login_div1 , .login_div2
@@ -32,12 +32,12 @@ body
 }
 #output
 {
-background: white;
-border-radius: 10px;
-border-top: 10px solid #AA4465;
-padding: 10px;
-float: none;
-text-align: left;
+	background: white;
+	border-radius: 10px;
+	border-top: 10px solid #AA4465;
+	padding: 10px;
+	float: none;
+	text-align: left;
 }
 h1{
 	color: orange;
@@ -47,7 +47,7 @@ h3{
 	font-family: 'Lora', serif;
 	color: teal;
 }
-label{
+#username{
 	font-family: 'Yellowtail', cursive;
 	color: turquoise;
 }
@@ -57,7 +57,24 @@ button{
 input:hover{
 	background-color: yellow;
 }
-div:hover{
+.login_div2:hover{
 	border: 5px solid rgb(102, 6, 73);
 	width: 35%;
+}
+.login_div1:hover{
+	border: 5px solid rgb(102, 6, 73);
+	width: 35%;
+}
+#number_1,#number_2
+{
+	color: tomato;
+	font-weight: bold;
+}
+h4{
+	color: bisque;
+	font-family: 'Akaya Kanadaka', cursive;
+	width: 100px;
+}
+h4:hover{
+	text-decoration: underline;
 }
